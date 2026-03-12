@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Fair - Super Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body class="bg-gray-100 p-10">
+
+    <div class="flex justify-between items-center mb-10">
+        <div>
+            <h1 class="text-4xl font-bold text-gray-800">🚕 God Mode</h1>
+            <p class="text-gray-500">System Overview & Financials</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <p class="text-sm text-gray-500">Platform Revenue (Today)</p>
+            <h2 class="text-3xl font-bold text-green-600">₹<span id="revenue-count">0</span></h2>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="p-6 bg-gray-800 text-white flex justify-between items-center">
+            <h3 class="text-xl font-bold">🪪 Driver Fleet</h3>
+            <button onclick="fetchDrivers()" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded">Refresh Data</button>
+        </div>
+        
+        <table class="w-full text-left border-collapse">
+            <thead>
+                <tr class="bg-gray-200 text-gray-700">
+                    <th class="p-4">Phone</th>
+                    <th class="p-4">Role</th>
+                    <th class="p-4">Subscription Status</th>
+                    <th class="p-4">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="driver-list">
+                </tbody>
+        </table>
+    </div>
+
+    <script>
+        // 1. CONFIGURATION (PASTE YOUR KEYS HERE)
+        const SUPABASE_URL = 'https://svrtdphfclhhsdwekyiy.supabase.co';
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2cnRkcGhmY2xoaHNkd2VreWl5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxMTU5NDIsImV4cCI6MjA3OTY5MTk0Mn0.Pn3b02gOYxhYGhZI0-mIKrbUwOxumM2an67ytPmSQp0';
+        
+        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+        // 2. FETCH DATA
+        async function fetchDrivers() {
+            const list = document.getElementById('driver-list');
+            list.innerHTML = '<tr><td class="p-4">Loading...</td></tr>';
+
+            // Get all users who are drivers
+            const { data: drivers, error } = await supabase
+                .from('users')
+                .select('*')
+                .eq('role', 'driver');
+
+            if (error) {
+                alert("Error fetching data: " + error.message);
+                return;
+            }
+
+            // Calculate Revenue (Simple logic: Count active drivers * ₹5)
+            // In a real app, you'd have a separate 'transactions' table
+            let activeCount = 0;
+            const now = new Date();
+
+            let html = '';
+            drivers.forEach(driver => {
+                // Check if subscription is active
+                const expiry = driver.subscription_expiry ? new Date(driver.subscription_expiry) : null;
+                const isActive = expiry && expiry > now;
+                
+                if (isActive) activeCount++;
+
+                html += `
+                    <tr class="border-b hover:bg-gray-50">
+                        <td class="p-4 font-mono">${driver.phone}</td>
+                        <td class="p-4"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">DRIVER</span></td>
+                        <td class="p-4">
+                            ${isActive 
+                                ? '<span class="bg-green-100 text-green-800 px-2 py-1 rounded font-bold">🟢 ACTIVE</span>' 
+                                : '<span class="bg-red-100 text-red-800 px-2 py-1 rounded">🔴 EXPIRED</span>'}
+                        </td>
+                        <td class="p-4">
+                            <button onclick="banDriver('${driver.id}')" class="text-red-500 hover:text-red-700 font-bold text-sm">BAN USER</button>
+                        </td>
+                    </tr>
+                `;
+            });
+
+            list.innerHTML = html;
+            
+            // Update Revenue Display
+            document.getElementById('revenue-count').innerText = activeCount * 5;
+        }
+
+        // 3. BAN LOGIC
+        async function banDriver(id) {
+            if(!confirm("Are you sure you want to BAN this driver? They will be locked out.")) return;
+
+            const { error } = await supabase.from('users').delete().eq('id', id);
+            if(error) alert("Error: " + error.message);
+            else {
+                alert("Driver Banned/Deleted.");
+                fetchDrivers();
+            }
+        }
+
+        // Load on startup
+        fetchDrivers();
+
+    </script>
+</body>
+</html>

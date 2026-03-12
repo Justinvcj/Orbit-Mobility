@@ -1,0 +1,21 @@
+# Task Outline
+
+* [ ] Plan the implementation
+  * [ ] Review `rider_app` and `driver_app` codebase
+  * [ ] Draft `implementation_plan.md`
+  * [ ] Request user review & approval
+* [ ] Implement Rider App Login
+  * [ ] Create or update [login_screen.dart](file:///c:/The%20Project/rider_app/lib/login_screen.dart) with modern B&W UI, validation, and navigation
+  * [ ] Update [main.dart](file:///c:/The%20Project/rider_app/lib/main.dart) to set `LoginScreen` as initial route
+  * [ ] Modify `RiderHomeScreen` constructor to accept user data
+  * [ ] Update `bookRide()` to use dynamic data instead of hardcoded strings
+* [ ] Implement Driver App Login
+  * [ ] Create [login_screen.dart](file:///c:/The%20Project/rider_app/lib/login_screen.dart) in `driver_app`
+  * [ ] Update [main.dart](file:///c:/The%20Project/rider_app/lib/main.dart) to set Driver Login as initial route
+  * [ ] Modify [map_screen.dart](file:///c:/The%20Project/driver_app/lib/map_screen.dart) to accept user data
+  * [ ] Update `driver_online` and `accept_ride` socket events with dynamic data
+* [ ] Verification
+  * [ ] Test Rider app login screen validation and routing
+  * [ ] Test Driver app login screen
+  * [ ] Check socket payloads for both apps
+  * [ ] Provide `walkthrough.md`
