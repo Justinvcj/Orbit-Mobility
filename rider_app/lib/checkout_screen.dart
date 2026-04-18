@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:google_fonts/google_fonts.dart';
 
 class CheckoutScreen extends StatefulWidget {
   final String fare;
@@ -28,7 +29,8 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://localhost:3000/api/pay"),
+        // Uri.parse("https://equinox-server-backend.onrender.com/api/pay"),
+        Uri.parse("https://equinox-server-backend.onrender.com/api/pay"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "rider_phone": widget.riderPhone,
@@ -79,50 +81,49 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color(0xFF0A0A0B),
       appBar: AppBar(
-        title: const Text("Digital Receipt"),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
+        title: Text("Digital Receipt", style: GoogleFonts.cormorantGaramond(fontSize: 22, fontWeight: FontWeight.w400, color: const Color(0xFFE8E2D9))),
+        backgroundColor: Colors.transparent,
+        foregroundColor: const Color(0xFFE8E2D9),
+        iconTheme: const IconThemeData(color: Color(0xFFC4BBA8)),
         elevation: 0,
       ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(
-                child: Center(
+        child: CustomScrollView(
+          slivers: [
+            SliverFillRemaining(
+              hasScrollBody: false,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Expanded(
+                      child: Center(
                   child: Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xFF1E1E1E), // Dark grey
-                      borderRadius: BorderRadius.circular(20),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.greenAccent.withOpacity(0.1),
-                          blurRadius: 20,
-                          spreadRadius: 2,
-                        )
-                      ],
+                      color: const Color(0xFF0F0F0D),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFF1E1C17), width: 1),
                     ),
                     padding: const EdgeInsets.all(32),
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        const Icon(Icons.receipt_long, color: Colors.greenAccent, size: 60),
+                        const Icon(Icons.receipt_long, color: Color(0xFFC9A96E), size: 60),
                         const SizedBox(height: 16),
-                        const Text(
+                        Text(
                           "Total Fare",
-                          style: TextStyle(color: Colors.grey, fontSize: 18),
+                          style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 18),
                         ),
                         const SizedBox(height: 8),
                         Text(
                           "₹${widget.fare}",
-                          style: const TextStyle(
-                            color: Colors.white,
+                          style: GoogleFonts.cormorantGaramond(
+                            color: const Color(0xFFC9A96E),
                             fontSize: 48,
-                            fontWeight: FontWeight.w900,
+                            fontWeight: FontWeight.w400,
                           ),
                         ),
                         const SizedBox(height: 32),
@@ -138,7 +139,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                   width: 5,
                                   height: 1,
                                   child: DecoratedBox(
-                                    decoration: BoxDecoration(color: Colors.grey.shade700),
+                                    decoration: BoxDecoration(color: const Color(0xFF1E1C17)),
                                   ),
                                 ),
                               ),
@@ -149,24 +150,24 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text("Ride ID", style: TextStyle(color: Colors.grey, fontSize: 16)),
-                            Text("#${widget.rideId.length > 5 ? widget.rideId.substring(widget.rideId.length - 5) : widget.rideId}", style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+                            Text("Ride ID", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 16)),
+                            Text("#${widget.rideId.length > 5 ? widget.rideId.substring(widget.rideId.length - 5) : widget.rideId}", style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9), fontSize: 16, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         const SizedBox(height: 16),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text("Driver", style: TextStyle(color: Colors.grey, fontSize: 16)),
-                            Text(widget.driverPhone, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+                            Text("Driver", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 16)),
+                            Text(widget.driverPhone, style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9), fontSize: 16, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         const SizedBox(height: 16),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
-                            Text("Payment", style: TextStyle(color: Colors.grey, fontSize: 16)),
-                            Text("Fair-Fare Wallet", style: TextStyle(color: Colors.greenAccent, fontSize: 16, fontWeight: FontWeight.bold)),
+                          children: [
+                            Text("Payment", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 16)),
+                            Text("Fair-Fare Wallet", style: GoogleFonts.dmSans(color: const Color(0xFFC9A96E), fontSize: 16, fontWeight: FontWeight.w500)),
                           ],
                         ),
                       ],
@@ -179,33 +180,36 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                 height: 60,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.greenAccent,
-                    foregroundColor: Colors.black,
+                    backgroundColor: const Color(0xFFC9A96E),
+                    foregroundColor: const Color(0xFF0A0A0B),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(16),
+                      borderRadius: BorderRadius.circular(14),
                     ),
-                    elevation: 5,
+                    elevation: 0,
                   ),
                   onPressed: _isProcessing ? null : _processPayment,
                   child: _isProcessing
                       ? const SizedBox(
                           height: 24,
                           width: 24,
-                          child: CircularProgressIndicator(color: Colors.black, strokeWidth: 3),
+                          child: CircularProgressIndicator(color: Color(0xFF0A0A0B), strokeWidth: 3),
                         )
                       : Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
-                            Icon(Icons.account_balance_wallet, size: 28),
-                            SizedBox(width: 12),
-                            Text("Pay from Wallet", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800)),
+                          children: [
+                            const Icon(Icons.account_balance_wallet, size: 28),
+                            const SizedBox(width: 12),
+                            Text("Pay from Wallet", style: GoogleFonts.dmSans(fontSize: 18, fontWeight: FontWeight.w500)),
                           ],
                         ),
                 ),
               ),
               const SizedBox(height: 24),
-            ],
-          ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

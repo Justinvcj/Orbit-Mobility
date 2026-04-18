@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:google_fonts/google_fonts.dart';
 
 class RideHistoryScreen extends StatefulWidget {
   final String userPhone;
@@ -23,7 +24,8 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
 
   Future<void> fetchRides() async {
     try {
-      final response = await http.get(Uri.parse("http://localhost:3000/api/rides/${widget.userPhone}"));
+      // final response = await http.get(Uri.parse("https://equinox-server-backend.onrender.com/api/rides/${widget.userPhone}"));
+      final response = await http.get(Uri.parse("https://equinox-server-backend.onrender.com/api/rides/${widget.userPhone}"));
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
         setState(() {
@@ -43,17 +45,18 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF121212),
+      backgroundColor: const Color(0xFF0A0A0B),
       appBar: AppBar(
-        title: const Text("Ride History"),
+        title: Text("Ride History", style: GoogleFonts.cormorantGaramond(fontSize: 22, fontWeight: FontWeight.w400, color: const Color(0xFFE8E2D9))),
         backgroundColor: Colors.transparent,
-        foregroundColor: Colors.white,
+        foregroundColor: const Color(0xFFE8E2D9),
+        iconTheme: const IconThemeData(color: Color(0xFFC4BBA8)),
         elevation: 0,
       ),
       body: _isLoading
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator(color: Color(0xFFC9A96E)))
           : _rides.isEmpty
-              ? const Center(child: Text("No rides found."))
+              ? Center(child: Text("No rides found.", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556))))
               : ListView.builder(
                   padding: const EdgeInsets.all(16),
                   itemCount: _rides.length,
@@ -63,8 +66,8 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
                     final formattedDate = "${date.day}/${date.month}/${date.year} ${date.hour}:${date.minute.toString().padLeft(2, '0')}";
                     return Card(
                       elevation: 0,
-                      color: const Color(0xFF1E1E1E),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                      color: const Color(0xFF161613),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14), side: const BorderSide(color: Color(0xFF1E1C17), width: 1)),
                       margin: const EdgeInsets.only(bottom: 16),
                       child: Padding(
                         padding: const EdgeInsets.all(20),
@@ -74,8 +77,8 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text(formattedDate, style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.grey)),
-                                Text("₹${ride['fare']}", style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 18, color: Color(0xFF00FF7F))),
+                                Text(formattedDate, style: GoogleFonts.dmSans(fontWeight: FontWeight.w500, color: const Color(0xFF6B6556))),
+                                Text("₹${ride['fare']}", style: GoogleFonts.dmSans(fontWeight: FontWeight.w500, fontSize: 18, color: const Color(0xFFC9A96E))),
                               ],
                             ),
                             const SizedBox(height: 16),
@@ -84,24 +87,24 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
                                 return Flex(
                                   direction: Axis.horizontal,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                  children: List.generate((constraints.constrainWidth() / 10).floor(), (index) => SizedBox(width: 5, height: 1, child: DecoratedBox(decoration: BoxDecoration(color: Colors.grey.shade800)))),
+                                  children: List.generate((constraints.constrainWidth() / 10).floor(), (index) => SizedBox(width: 5, height: 1, child: DecoratedBox(decoration: BoxDecoration(color: const Color(0xFF1E1C17))))),
                                 );
                               },
                             ),
                             const SizedBox(height: 16),
                             Row(
                               children: [
-                                const Icon(Icons.my_location, color: Color(0xFF00FF7F), size: 20),
+                                const Icon(Icons.my_location, color: Color(0xFFC9A96E), size: 18),
                                 const SizedBox(width: 12),
-                                Expanded(child: Text(ride['pickup'] ?? "Unknown", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white))),
+                                Expanded(child: Text(ride['pickup'] ?? "Unknown", maxLines: 1, overflow: TextOverflow.ellipsis, style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9)))),
                               ],
                             ),
                             const SizedBox(height: 12),
                             Row(
                               children: [
-                                const Icon(Icons.flag, color: Colors.white, size: 20),
+                                const Icon(Icons.flag, color: Color(0xFFC4BBA8), size: 18),
                                 const SizedBox(width: 12),
-                                Expanded(child: Text(ride['dropoff'] ?? "Unknown", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white))),
+                                Expanded(child: Text(ride['dropoff'] ?? "Unknown", maxLines: 1, overflow: TextOverflow.ellipsis, style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9)))),
                               ],
                             ),
                             const SizedBox(height: 16),
@@ -110,11 +113,11 @@ class _RideHistoryScreenState extends State<RideHistoryScreen> {
                               child: Container(
                                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                                 decoration: BoxDecoration(
-                                  color: ride['status'] == 'PAID' ? const Color(0xFF00FF7F).withOpacity(0.1) : Colors.grey.shade900,
+                                  color: ride['status'] == 'PAID' ? const Color(0x22C9A96E) : const Color(0xFF1A1915),
                                   borderRadius: BorderRadius.circular(12),
-                                  border: Border.all(color: ride['status'] == 'PAID' ? const Color(0xFF00FF7F) : Colors.grey.shade700)
+                                  border: Border.all(color: ride['status'] == 'PAID' ? const Color(0x44C9A96E) : const Color(0xFF2A2820), width: 1),
                                 ),
-                                child: Text(ride['status'] ?? "UNKNOWN", style: TextStyle(color: ride['status'] == 'PAID' ? const Color(0xFF00FF7F) : Colors.grey, fontSize: 12, fontWeight: FontWeight.bold)),
+                                child: Text(ride['status'] ?? "UNKNOWN", style: GoogleFonts.dmSans(color: ride['status'] == 'PAID' ? const Color(0xFFC9A96E) : const Color(0xFF6B6556), fontSize: 12, fontWeight: FontWeight.w500, letterSpacing: 0.08)),
                               ),
                             )
                           ],

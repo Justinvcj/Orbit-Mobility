@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'map_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -23,7 +24,13 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (name.isEmpty || phone.length < 10) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Please enter valid Name & Phone"))
+        SnackBar(
+          content: Text("Please enter valid Name & Phone", style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9))),
+          backgroundColor: const Color(0xFF7C3A3A).withOpacity(0.8),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          margin: const EdgeInsets.all(16),
+        )
       );
       return;
     }
@@ -34,7 +41,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://localhost:3000/api/login"),
+        // Uri.parse("https://equinox-server-backend.onrender.com/api/login"),
+        Uri.parse("https://equinox-server-backend.onrender.com/api/login"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "name": name,
@@ -64,13 +72,25 @@ class _LoginScreenState extends State<LoginScreen> {
       } else {
         if (!mounted) return;
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("Login failed. Please try again."))
+          SnackBar(
+            content: Text("Login failed. Please try again.", style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9))),
+            backgroundColor: const Color(0xFF7C3A3A).withOpacity(0.8),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            margin: const EdgeInsets.all(16),
+          )
         );
       }
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text("Network error: $e"))
+          SnackBar(
+            content: Text("Network error: $e", style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9))),
+            backgroundColor: const Color(0xFF7C3A3A).withOpacity(0.8),
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            margin: const EdgeInsets.all(16),
+          )
       );
     } finally {
       if (mounted) {
@@ -84,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF121212),
+      backgroundColor: const Color(0xFF0A0A0B),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -93,26 +113,27 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.local_taxi, size: 80, color: Color(0xFF00FF7F)),
+                  const Icon(Icons.local_taxi, size: 80, color: Color(0xFFC9A96E)),
                   const SizedBox(height: 24),
-                  const Text("RideFair", style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900, color: Colors.white)),
+                  Text("RideFair", style: GoogleFonts.cormorantGaramond(fontSize: 38, fontWeight: FontWeight.w400, color: const Color(0xFFE8E2D9), letterSpacing: 0.12)),
                   const SizedBox(height: 8),
-                  const Text("Driver Partner", style: TextStyle(color: Colors.grey, fontSize: 18)),
+                  Text("Driver Partner", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 14, letterSpacing: 0.06)),
                   const SizedBox(height: 48),
                   
                   // Name Field
                   Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xFF1E1E1E),
-                      borderRadius: BorderRadius.circular(16),
+                      color: const Color(0xFF161613),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFF252219), width: 1),
                     ),
                     child: TextField(
                       controller: _nameController,
-                      style: const TextStyle(color: Colors.white),
+                      style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9), fontSize: 14),
                       decoration: InputDecoration(
                         hintText: "Driver Name",
-                        hintStyle: TextStyle(color: Colors.grey.shade600),
-                        prefixIcon: const Icon(Icons.person, color: Color(0xFF00FF7F)),
+                        hintStyle: GoogleFonts.dmSans(color: const Color(0xFF4A4640), fontSize: 14),
+                        prefixIcon: const Icon(Icons.person, color: Color(0xFFC9A96E)),
                         border: InputBorder.none,
                         contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                       ),
@@ -123,17 +144,18 @@ class _LoginScreenState extends State<LoginScreen> {
                   // Phone Field
                   Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xFF1E1E1E),
-                      borderRadius: BorderRadius.circular(16),
+                      color: const Color(0xFF161613),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFF252219), width: 1),
                     ),
                     child: TextField(
                       controller: _phoneController,
                       keyboardType: TextInputType.phone,
-                      style: const TextStyle(color: Colors.white),
+                      style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9), fontSize: 14),
                       decoration: InputDecoration(
                         hintText: "Phone Number",
-                        hintStyle: TextStyle(color: Colors.grey.shade600),
-                        prefixIcon: const Icon(Icons.phone, color: Color(0xFF00FF7F)),
+                        hintStyle: GoogleFonts.dmSans(color: const Color(0xFF4A4640), fontSize: 14),
+                        prefixIcon: const Icon(Icons.phone, color: Color(0xFFC9A96E)),
                         border: InputBorder.none,
                         contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                       ),
@@ -145,27 +167,17 @@ class _LoginScreenState extends State<LoginScreen> {
                   Container(
                     width: double.infinity,
                     height: 60,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(16),
-                      boxShadow: [
-                        BoxShadow(
-                          color: const Color(0xFF00FF7F).withOpacity(0.3),
-                          blurRadius: 20,
-                          offset: const Offset(0, 10),
-                        )
-                      ],
-                    ),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF00FF7F), 
-                        foregroundColor: Colors.black,
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                        backgroundColor: const Color(0xFFC9A96E), 
+                        foregroundColor: const Color(0xFF0A0A0B),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
                         elevation: 0,
                       ),
                       onPressed: _isLoading ? null : doLogin,
                       child: _isLoading 
-                          ? const SizedBox(height: 24, width: 24, child: CircularProgressIndicator(color: Colors.black, strokeWidth: 3))
-                          : const Text("CONTINUE", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                          ? const SizedBox(height: 24, width: 24, child: CircularProgressIndicator(color: Color(0xFFC9A96E), strokeWidth: 3))
+                          : Text("CONTINUE", style: GoogleFonts.dmSans(fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0.08)),
                     ),
                   )
                 ],

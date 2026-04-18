@@ -1,0 +1,104 @@
+﻿Initialized native services in: C:\Users\Justin\.gradle\native
+Initialized jansi services in: C:\Users\Justin\.gradle\native
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'command 'C:\Program Files\Android\Android Studio\jbr\bin\java.exe''. Working directory: C:\Users\Justin\.gradle\.tmp\tmp-jvm16084533814878749513probe Command: C:\Program Files\Android\Android Studio\jbr\bin\java.exe -Xmx32m -Xms32m -cp . JavaProbe
+Successfully started process 'command 'C:\Program Files\Android\Android Studio\jbr\bin\java.exe''
+Received JVM installation metadata from 'C:\Program Files\Android\Android Studio\jbr': {JAVA_HOME=C:\Program Files\Android\Android Studio\jbr, JAVA_VERSION=21.0.9, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.9+-14787801-b1163.94, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.9+-14787801-b1163.94, VM_VENDOR=JetBrains s.r.o., OS_ARCH=amd64}
+Starting process 'Gradle build daemon'. Working directory: C:\Users\Justin\.gradle\daemon\9.3.1 Command: C:\Program Files\Android\Android Studio\jbr\bin\java.exe --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError -Xmx8G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\Justin\.gradle\wrapper\dists\gradle-9.3.1-all\1l8rhsg5wfgdtkvdg8qmlql34\gradle-9.3.1\lib\gradle-daemon-main-9.3.1.jar -javaagent:C:\Users\Justin\.gradle\wrapper\dists\gradle-9.3.1-all\1l8rhsg5wfgdtkvdg8qmlql34\gradle-9.3.1\lib\agents\gradle-instrumentation-agent-9.3.1.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 9.3.1
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.111 secs.
+The client will now receive all logging from the daemon (pid: 19640). The daemon log file: C:\Users\Justin\.gradle\daemon\9.3.1\daemon-19640.out.log
+Daemon will be stopped at the end of the build 
+Using 16 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Received JVM installation metadata from 'C:\Program Files\Android\Android Studio\jbr': {JAVA_HOME=C:\Program Files\Android\Android Studio\jbr, JAVA_VERSION=21.0.9, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=Java(TM) SE Runtime Environment, RUNTIME_VERSION=21.0.9+-14787801-b1163.94, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.9+-14787801-b1163.94, VM_VENDOR=JetBrains s.r.o., OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\The Project\driver_app\android] as hierarchies to watch
+File system watching is active
+Starting Build
+Now considering [C:\flutter\packages\flutter_tools\gradle, C:\The Project\driver_app\android] as hierarchies to watch
+
+> Configure project :gradle
+Evaluating project ':gradle' using build file 'C:\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+Resolved plugin [id: 'org.gradle.groovy']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.2']
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+Build b1ece287-2263-492e-90fe-d76d22edbe0a is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+file or directory 'C:\flutter\packages\flutter_tools\gradle\src\main\java', not found
+Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+Resolved plugin [id: 'com.android.application', version: '9.1.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#117,Execution worker Thread 2,5,main]) started.
+:gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#115,included builds,5,main]) started.
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle:compileKotlin (Thread[#115,included builds,5,main]) started.
+:gradle:compileKotlin (Thread[#115,included builds,5,main]) started.
+
+> Task :gradle:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle:compileJava (Thread[#115,included builds,5,main]) started.
+:gradle:compileJava (Thread[#115,included builds,5,main]) started.
+
+> Task :gradle:compileJava NO-SOURCE
+Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle:compileGroovy (Thread[#115,included builds,5,main]) started.
+:gradle:compileGroovy (Thread[#115,included builds,5,main]) started.
+
+> Task :gradle:compileGroovy NO-SOURCE
+Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+Resolve mutations for :gradle:pluginDescriptors (Thread[#115,included builds,5,main]) started.
+:gradle:pluginDescriptors (Thread[#115,included builds,5,main]) started.
+
+> Task :gradle:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle:processResources (Thread[#115,included builds,5,main]) started.
+:gradle:processResources (Thread[#118,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle:processResources UP-TO-DATE
+Caching disabled for task ':gradle:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:processResources' as it is up-to-date.
+Resolve mutations for :gradle:classes (Thread[#118,Execution worker Thread 3,5,main]) started.
+:gradle:classes (Thread[#118,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle:classes UP-TO-DATE
+Skipping task ':gradle:classes' as it has no actions.
+Resolve mutations for :gradle:jar (Thread[#118,Execution worker Thread 3,5,main]) started.
+:gradle:jar (Thread[#118,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle:jar UP-TO-DATE
+Caching disabled for task ':gradle:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:jar' as it is up-to-date.
+Settings evaluated using settings file 'C:\The Project\driver_app\android\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\The Project\driver_app\android\build.gradle.kts'.
+Included projects: [root project 'android', project ':app', project ':device_info_plus', project ':geolocator_android', project ':package_info_plus', project ':path_provider_android', project ':shared_preferences_android', project ':url_launcher_android', project ':vibration']
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\The Project\driver_app\android\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'kotlin-android']
+Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+Build d7cff0e7-4053-4f43-8d1a-ec45ec7448d6 is started
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :
+Evaluating root project 'android' using build file 'C:\The Project\driver_app\android\build.gradle.kts'.
+Build b1ece287-2263-492e-90fe-d76d22edbe0a is closed
+Build d7cff0e7-4053-4f43-8d1a-ec45ec7448d6 is closed
+4 actionable tasks: 4 up-to-date
+Watched directory hierarchies: [C:\flutter\packages\flutter_tools\gradle]

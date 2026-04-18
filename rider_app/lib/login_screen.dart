@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'main.dart'; // Import to navigate to the map
 
 class LoginScreen extends StatefulWidget {
@@ -34,7 +35,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://localhost:3000/api/login"),
+        // Uri.parse("https://equinox-server-backend.onrender.com/api/login"),
+        Uri.parse("https://equinox-server-backend.onrender.com/api/login"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "name": name,
@@ -84,7 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF121212),
+      backgroundColor: const Color(0xFF0A0A0B),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -93,26 +95,27 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.local_taxi, size: 80, color: Color(0xFF00FF7F)),
+                  const Icon(Icons.local_taxi, size: 80, color: Color(0xFFC9A96E)),
                   const SizedBox(height: 24),
-                  const Text("RideFair", style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900, color: Colors.white)),
+                  Text("Orbit Mobility", style: GoogleFonts.cormorantGaramond(fontSize: 40, fontWeight: FontWeight.w400, color: const Color(0xFFE8E2D9))),
                   const SizedBox(height: 8),
-                  const Text("Rider Login", style: TextStyle(color: Colors.grey, fontSize: 18)),
+                  Text("Rider Login", style: GoogleFonts.dmSans(color: const Color(0xFF6B6556), fontSize: 18)),
                   const SizedBox(height: 48),
                   
                   // Name Field
                   Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xFF1E1E1E),
-                      borderRadius: BorderRadius.circular(16),
+                      color: const Color(0xFF0F0F0D),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFF1E1C17), width: 1),
                     ),
                     child: TextField(
                       controller: _nameController,
-                      style: const TextStyle(color: Colors.white),
+                      style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9)),
                       decoration: InputDecoration(
                         hintText: "Your Name",
-                        hintStyle: TextStyle(color: Colors.grey.shade600),
-                        prefixIcon: const Icon(Icons.person, color: Color(0xFF00FF7F)),
+                        hintStyle: GoogleFonts.dmSans(color: const Color(0xFF6B6556)),
+                        prefixIcon: const Icon(Icons.person, color: Color(0xFFC9A96E)),
                         border: InputBorder.none,
                         contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                       ),
@@ -123,17 +126,18 @@ class _LoginScreenState extends State<LoginScreen> {
                   // Phone Field
                   Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xFF1E1E1E),
-                      borderRadius: BorderRadius.circular(16),
+                      color: const Color(0xFF0F0F0D),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFF1E1C17), width: 1),
                     ),
                     child: TextField(
                       controller: _phoneController,
                       keyboardType: TextInputType.phone,
-                      style: const TextStyle(color: Colors.white),
+                      style: GoogleFonts.dmSans(color: const Color(0xFFE8E2D9)),
                       decoration: InputDecoration(
                         hintText: "Phone Number",
-                        hintStyle: TextStyle(color: Colors.grey.shade600),
-                        prefixIcon: const Icon(Icons.phone, color: Color(0xFF00FF7F)),
+                        hintStyle: GoogleFonts.dmSans(color: const Color(0xFF6B6556)),
+                        prefixIcon: const Icon(Icons.phone, color: Color(0xFFC9A96E)),
                         border: InputBorder.none,
                         contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                       ),
@@ -146,26 +150,19 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: double.infinity,
                     height: 60,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(16),
-                      boxShadow: [
-                        BoxShadow(
-                          color: const Color(0xFF00FF7F).withOpacity(0.3),
-                          blurRadius: 20,
-                          offset: const Offset(0, 10),
-                        )
-                      ],
+                      borderRadius: BorderRadius.circular(14),
                     ),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF00FF7F), 
-                        foregroundColor: Colors.black,
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                        backgroundColor: const Color(0xFFC9A96E), 
+                        foregroundColor: const Color(0xFF0A0A0B),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
                         elevation: 0,
                       ),
                       onPressed: _isLoading ? null : doLogin,
                       child: _isLoading 
-                          ? const SizedBox(height: 24, width: 24, child: CircularProgressIndicator(color: Colors.black, strokeWidth: 3))
-                          : const Text("CONTINUE", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                          ? const SizedBox(height: 24, width: 24, child: CircularProgressIndicator(color: Color(0xFF0A0A0B), strokeWidth: 3))
+                          : Text("CONTINUE", style: GoogleFonts.dmSans(fontSize: 16, fontWeight: FontWeight.w500, letterSpacing: 0.08)),
                     ),
                   )
                 ],

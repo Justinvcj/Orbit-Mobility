@@ -1,0 +1,28 @@
+﻿Analyzing driver_app...                                         
+
+   info - The prefix 'IO' isn't a lower_case_with_underscores identifier - lib\map_screen.dart:5:60 - library_prefixes
+   info - Statements in an if should be enclosed in a block - lib\map_screen.dart:186:9 - curly_braces_in_flow_control_structures
+warning - Dead code - lib\map_screen.dart:191:43 - dead_code
+warning - The left operand can't be null, so the right operand is never executed - lib\map_screen.dart:191:46 - dead_null_aware_expression
+   info - Missing type annotation - lib\map_screen.dart:421:23 - strict_top_level_inference
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\map_screen.dart:665:23 - use_build_context_synchronously
+
+flutter : 6 issues 
+found. (ran in 11.7s)
+At line:1 char:1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+"analyze_results.txt" 
+-Enco ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (6 issues f   
+ ound. (ran in 11.    
+7s):String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

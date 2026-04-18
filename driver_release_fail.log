@@ -1,0 +1,505 @@
+﻿[ +205 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [C:\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +39 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-03-03 16:03:22 -0800
+[   +7 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +24 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +43 ms] Skipping pub get: version match.
+[  +44 ms] Found plugin vibration at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-3.1.8\
+[   +6 ms] Found plugin device_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-12.3.0\
+[  +11 ms] Found plugin url_launcher at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher-6.3.2\
+[   +1 ms] Found plugin url_launcher_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +2 ms] Found plugin url_launcher_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[   +2 ms] Found plugin url_launcher_macos at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_macos-3.2.5\
+[   +1 ms] Found plugin url_launcher_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[   +1 ms] Found plugin url_launcher_ios at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_ios-6.4.1\
+[   +1 ms] Found plugin url_launcher_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.28\
+[   +5 ms] Found plugin shared_preferences at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[   +2 ms] Found plugin shared_preferences_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +3 ms] Found plugin shared_preferences_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +1 ms] Found plugin shared_preferences_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[   +1 ms] Found plugin path_provider_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin shared_preferences_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[   +1 ms] Found plugin shared_preferences_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[   +6 ms] Found plugin geolocator at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator-14.0.2\
+[   +1 ms] Found plugin geolocator_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_windows-0.2.5\
+[   +2 ms] Found plugin geolocator_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_web-4.1.3\
+[        ] Found plugin geolocator_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_linux-0.2.4\
+[   +1 ms] Found plugin package_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-9.0.0\
+[   +5 ms] Found plugin geolocator_apple at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_apple-2.3.13\
+[        ] Found plugin geolocator_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-5.0.2\
+[   +7 ms] Found plugin path_provider at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[   +6 ms] Found plugin path_provider_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[  +33 ms] Found plugin vibration at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-3.1.8\
+[   +1 ms] Found plugin device_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-12.3.0\
+[   +6 ms] Found plugin url_launcher at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher-6.3.2\
+[   +1 ms] Found plugin url_launcher_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +1 ms] Found plugin url_launcher_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[        ] Found plugin url_launcher_macos at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_macos-3.2.5\
+[        ] Found plugin url_launcher_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[        ] Found plugin url_launcher_ios at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_ios-6.4.1\
+[        ] Found plugin url_launcher_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.28\
+[   +3 ms] Found plugin shared_preferences at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[        ] Found plugin shared_preferences_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[        ] Found plugin path_provider_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +1 ms] Found plugin shared_preferences_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[        ] Found plugin shared_preferences_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[        ] Found plugin path_provider_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +1 ms] Found plugin shared_preferences_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[        ] Found plugin shared_preferences_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[   +5 ms] Found plugin geolocator at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator-14.0.2\
+[   +1 ms] Found plugin geolocator_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_windows-0.2.5\
+[   +2 ms] Found plugin geolocator_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_web-4.1.3\
+[        ] Found plugin geolocator_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_linux-0.2.4\
+[   +1 ms] Found plugin package_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-9.0.0\
+[   +4 ms] Found plugin geolocator_apple at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_apple-2.3.13\
+[        ] Found plugin geolocator_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-5.0.2\
+[   +5 ms] Found plugin path_provider at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[        ] Found plugin path_provider_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[   +4 ms] Found plugin path_provider_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +9 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +19 ms] Found plugin vibration at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-3.1.8\
+[   +1 ms] Found plugin device_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-12.3.0\
+[   +3 ms] Found plugin url_launcher at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher-6.3.2\
+[        ] Found plugin url_launcher_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +1 ms] Found plugin url_launcher_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[        ] Found plugin url_launcher_macos at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_macos-3.2.5\
+[        ] Found plugin url_launcher_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[        ] Found plugin url_launcher_ios at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_ios-6.4.1\
+[        ] Found plugin url_launcher_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.28\
+[   +1 ms] Found plugin shared_preferences at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[        ] Found plugin shared_preferences_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[        ] Found plugin path_provider_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +1 ms] Found plugin shared_preferences_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[        ] Found plugin shared_preferences_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[        ] Found plugin path_provider_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +1 ms] Found plugin shared_preferences_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[        ] Found plugin shared_preferences_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[   +3 ms] Found plugin geolocator at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator-14.0.2\
+[        ] Found plugin geolocator_windows at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_windows-0.2.5\
+[   +1 ms] Found plugin geolocator_web at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_web-4.1.3\
+[        ] Found plugin geolocator_linux at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_linux-0.2.4\
+[        ] Found plugin package_info_plus at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-9.0.0\
+[   +5 ms] Found plugin geolocator_apple at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_apple-2.3.13\
+[        ] Found plugin geolocator_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-5.0.2\
+[   +5 ms] Found plugin path_provider at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[        ] Found plugin path_provider_foundation at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[   +3 ms] Found plugin path_provider_android at C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +4 ms] Generating C:\The Project\driver_app\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[        ] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +3 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +64 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[  +84 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.9" 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14787801-b1163.94)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14787801-b1163.94, mixed mode)
+[   +1 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[  +76 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.9" 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14787801-b1163.94)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14787801-b1163.94, mixed mode)
+[   +3 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[  +75 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.9" 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14787801-b1163.94)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14787801-b1163.94, mixed mode)
+[   +5 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[  +86 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.9 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14787801-b1163.94)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14787801-b1163.94, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[   +8 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +2 ms] Using gradle from C:\The Project\driver_app\android\gradlew.bat.
+[   +5 ms] LocalFile: 'C:\The Project\driver_app\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[        ] LocalFile: 'C:\The Project\driver_app\android\settings.gradle.kts' provides AGP version: 9.1.0
+[   +3 ms] Running Gradle task 'assembleRelease'...
+[        ] executing: [C:\The Project\driver_app\android/] C:\The Project\driver_app\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZmYzN2JlZjYwMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZTRiOGRjYTNmMQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +563 ms] Initialized native services in: C:\Users\Justin\.gradle\native
+[        ] Initialized jansi services in: C:\Users\Justin\.gradle\native
+[ +314 ms] The client will now receive all logging from the daemon (pid: 6388). The daemon log file: C:\Users\Justin\.gradle\daemon\9.3.1\daemon-6388.out.log
+[        ] Starting 8th build in daemon [uptime: 20 mins 31.023 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 5% of 4 GiB]
+[        ] Using 16 worker leases.
+[        ] Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+[        ] Now considering [C:\The Project\driver_app\android, C:\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [C:\flutter\packages\flutter_tools\gradle, C:\The Project\driver_app\android] as hierarchies to watch
+[ +201 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.4.2']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Invalidating in-memory cache of C:\Users\Justin\.gradle\caches\journal-1\file-access.bin
+[        ] Invalidating in-memory cache of C:\Users\Justin\.gradle\caches\9.3.1\fileHashes\kotlinDslCompileAvoidanceClasspathHashCache.bin
+[        ] Invalidating in-memory cache of C:\Users\Justin\.gradle\caches\9.3.1\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\Justin\.gradle\caches\9.3.1\fileHashes\resourceHashesCache.bin
+[        ] Build 260917dc-5a9c-4cd3-80ed-fa1c06ecac83 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory 'C:\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '9.1.0', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[  +91 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:compileJava (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#1524,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#1530,Execution worker Thread 8,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#1530,Execution worker Thread 8,5,main]) started.
+[        ] :gradle:processResources (Thread[#1530,Execution worker Thread 8,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#1530,Execution worker Thread 8,5,main]) started.
+[        ] :gradle:classes (Thread[#1527,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#1527,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:jar (Thread[#1527,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +106 ms] Settings evaluated using settings file 'C:\The Project\driver_app\android\settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file 'C:\The Project\driver_app\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':device_info_plus', project ':geolocator_android', project ':package_info_plus', project ':path_provider_android', project ':shared_preferences_android', project ':url_launcher_android', project ':vibration']
+[ +203 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\The Project\driver_app\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+[        ] The current default is 'true'.
+[        ] It will be removed in version 10.0 of the Android Gradle plugin.
+[        ] WARNING: The option setting 'android.newDsl=false' is deprecated.
+[        ] The current default is 'true'.
+[        ] It will be removed in version 10.0 of the Android Gradle plugin.
+[        ] Using default execution profile
+[        ] Build e2ca9eb8-b163-49ba-b003-169b1f672283 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Justin\AppData\Local\Android\sdk
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file 'C:\The Project\driver_app\android\build.gradle.kts'.
+[ +189 ms] > Configure project :device_info_plus
+[        ] Evaluating project ':device_info_plus' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-12.3.0\android\build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +92 ms] > Configure project :geolocator_android
+[        ] Evaluating project ':geolocator_android' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-5.0.2\android\build.gradle'.
+[        ] Using default execution profile
+[ +107 ms] > Configure project :package_info_plus
+[        ] Evaluating project ':package_info_plus' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-9.0.0\android\build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +92 ms] > Configure project :path_provider_android
+[        ] Evaluating project ':path_provider_android' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\android\build.gradle'.
+[        ] Using default execution profile
+[  +95 ms] > Configure project :shared_preferences_android
+[        ] Evaluating project ':shared_preferences_android' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] > Configure project :url_launcher_android
+[        ] Evaluating project ':url_launcher_android' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.28\android\build.gradle'.
+[        ] Using default execution profile
+[ +108 ms] > Configure project :vibration
+[        ] Evaluating project ':vibration' using build file 'C:\Users\Justin\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-3.1.8\android\build.gradle'.
+[        ] Using default execution profile
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleRelease'
+[        ] Selected primary task 'assembleRelease' from project :
+[ +201 ms] Tasks to be executed: [task ':app:ReleaseMinSdkCheck', task ':app:compileFlutterBuildRelease', task ':app:packJniLibsflutterBuildRelease', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:configureCMakeRelease[arm64-v8a]', task ':app:buildCMakeRelease[arm64-v8a]', task ':app:configureCMakeRelease[armeabi-v7a]', task ':app:buildCMakeRelease[armeabi-v7a]', task ':app:configureCMakeRelease[x86_64]', task ':app:buildCMakeRelease[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':device_info_plus:preBuild', task ':device_info_plus:preReleaseBuild', task ':device_info_plus:mergeReleaseJniLibFolders', task ':device_info_plus:mergeReleaseNativeLibs', task ':device_info_plus:copyReleaseJniLibsProjectOnly', task ':geolocator_android:preBuild', task ':geolocator_android:preReleaseBuild', task ':geolocator_android:mergeReleaseJniLibFolders', task ':geolocator_android:mergeReleaseNativeLibs', task ':geolocator_android:copyReleaseJniLibsProjectOnly', task ':package_info_plus:preBuild', task ':package_info_plus:preReleaseBuild', task ':package_info_plus:mergeReleaseJniLibFolders', task ':package_info_plus:mergeReleaseNativeLibs', task ':package_info_plus:copyReleaseJniLibsProjectOnly', task ':path_provider_android:preBuild', task ':path_provider_android:preReleaseBuild', task ':path_provider_android:mergeReleaseJniLibFolders', task ':path_provider_android:mergeReleaseNativeLibs', task ':path_provider_android:copyReleaseJniLibsProjectOnly', task ':shared_preferences_android:preBuild', task ':shared_preferences_android:preReleaseBuild', task ':shared_preferences_android:mergeReleaseJniLibFolders', task ':shared_preferences_android:mergeReleaseNativeLibs', task ':shared_preferences_android:copyReleaseJniLibsProjectOnly', task ':url_launcher_android:preBuild', task ':url_launcher_android:preReleaseBuild', task ':url_launcher_android:mergeReleaseJniLibFolders', task ':url_launcher_android:mergeReleaseNativeLibs', task ':url_launcher_android:copyReleaseJniLibsProjectOnly', task ':vibration:preBuild', task ':vibration:preReleaseBuild', task ':vibration:mergeReleaseJniLibFolders', task ':vibration:mergeReleaseNativeLibs', task ':vibration:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':device_info_plus:checkKotlinGradlePluginConfigurationErrors', task ':device_info_plus:generateReleaseResources', task ':device_info_plus:packageReleaseResources', task ':device_info_plus:processReleaseNavigationResources', task ':device_info_plus:parseReleaseLocalResources', task ':device_info_plus:generateReleaseRFile', task ':device_info_plus:compileReleaseKotlin', task ':device_info_plus:javaPreCompileRelease', task ':device_info_plus:compileReleaseJavaWithJavac', task ':device_info_plus:mergeReleaseGeneratedProguardFiles', task ':device_info_plus:exportReleaseConsumerProguardFiles', task ':geolocator_android:generateReleaseResources', task ':geolocator_android:packageReleaseResources', task ':geolocator_android:processReleaseNavigationResources', task ':geolocator_android:parseReleaseLocalResources', task ':geolocator_android:generateReleaseRFile', task ':geolocator_android:javaPreCompileRelease', task ':geolocator_android:compileReleaseJavaWithJavac', task ':geolocator_android:mergeReleaseGeneratedProguardFiles', task ':geolocator_android:exportReleaseConsumerProguardFiles', task ':package_info_plus:checkKotlinGradlePluginConfigurationErrors', task ':package_info_plus:generateReleaseResources', task ':package_info_plus:packageReleaseResources', task ':package_info_plus:processReleaseNavigationResources', task ':package_info_plus:parseReleaseLocalResources', task ':package_info_plus:generateReleaseRFile', task ':package_info_plus:compileReleaseKotlin', task ':package_info_plus:javaPreCompileRelease', task ':package_info_plus:compileReleaseJavaWithJavac', task ':package_info_plus:mergeReleaseGeneratedProguardFiles', task ':package_info_plus:exportReleaseConsumerProguardFiles', task ':path_provider_android:generateReleaseResources', task ':path_provider_android:packageReleaseResources', task ':path_provider_android:processReleaseNavigationResources', task ':path_provider_android:parseReleaseLocalResources', task ':path_provider_android:generateReleaseRFile', task ':path_provider_android:javaPreCompileRelease', task ':path_provider_android:compileReleaseJavaWithJavac', task ':path_provider_android:mergeReleaseGeneratedProguardFiles', task ':path_provider_android:exportReleaseConsumerProguardFiles', task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:generateReleaseResources', task ':shared_preferences_android:packageReleaseResources', task ':shared_preferences_android:processReleaseNavigationResources', task ':shared_preferences_android:parseReleaseLocalResources', task ':shared_preferences_android:generateReleaseRFile', task ':shared_preferences_android:compileReleaseKotlin', task ':shared_preferences_android:javaPreCompileRelease', task ':shared_preferences_android:compileReleaseJavaWithJavac', task ':shared_preferences_android:mergeReleaseGeneratedProguardFiles', task ':shared_preferences_android:exportReleaseConsumerProguardFiles', task ':url_launcher_android:generateReleaseBuildConfig', task ':url_launcher_android:generateReleaseResources', task ':url_launcher_android:packageReleaseResources', task ':url_launcher_android:processReleaseNavigationResources', task ':url_launcher_android:parseReleaseLocalResources', task ':url_launcher_android:generateReleaseRFile', task ':url_launcher_android:javaPreCompileRelease', task ':url_launcher_android:compileReleaseJavaWithJavac', task ':url_launcher_android:mergeReleaseGeneratedProguardFiles', task ':url_launcher_android:exportReleaseConsumerProguardFiles', task ':vibration:generateReleaseResources', task ':vibration:packageReleaseResources', task ':vibration:processReleaseNavigationResources', task ':vibration:parseReleaseLocalResources', task ':vibration:generateReleaseRFile', task ':vibration:javaPreCompileRelease', task ':vibration:compileReleaseJavaWithJavac', task ':vibration:mergeReleaseGeneratedProguardFiles', task ':vibration:exportReleaseConsumerProguardFiles', task ':app:buildKotlinToolingMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:cleanMergeReleaseAssets', task ':app:generateReleaseAssets', task ':device_info_plus:generateReleaseAssets', task ':device_info_plus:mergeReleaseAssets', task ':geolocator_android:generateReleaseAssets', task ':geolocator_android:mergeReleaseAssets', task ':package_info_plus:generateReleaseAssets', task ':package_info_plus:mergeReleaseAssets', task ':path_provider_android:generateReleaseAssets', task ':path_provider_android:mergeReleaseAssets', task ':shared_preferences_android:generateReleaseAssets', task ':shared_preferences_android:mergeReleaseAssets', task ':url_launcher_android:generateReleaseAssets', task ':url_launcher_android:mergeReleaseAssets', task ':vibration:generateReleaseAssets', task ':vibration:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:copyFlutterAssetsRelease', task ':app:generateReleaseResources', task ':app:packageReleaseResources', task ':app:processReleaseNavigationResources', task ':app:parseReleaseLocalResources', task ':app:generateReleaseRFile', task ':device_info_plus:bundleLibCompileToJarRelease', task ':geolocator_android:bundleLibCompileToJarRelease', task ':package_info_plus:bundleLibCompileToJarRelease', task ':path_provider_android:bundleLibCompileToJarRelease', task ':shared_preferences_android:bundleLibCompileToJarRelease', task ':url_launcher_android:bundleLibCompileToJarRelease', task ':vibration:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':device_info_plus:prepareReleaseArtProfile', task ':geolocator_android:prepareReleaseArtProfile', task ':package_info_plus:prepareReleaseArtProfile', task ':path_provider_android:prepareReleaseArtProfile', task ':shared_preferences_android:prepareReleaseArtProfile', task ':url_launcher_android:prepareReleaseArtProfile', task ':vibration:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':device_info_plus:writeReleaseAarMetadata', task ':geolocator_android:writeReleaseAarMetadata', task ':package_info_plus:writeReleaseAarMetadata', task ':path_provider_android:writeReleaseAarMetadata', task ':shared_preferences_android:writeReleaseAarMetadata', task ':url_launcher_android:writeReleaseAarMetadata', task ':vibration:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:mapReleaseSourceSetPaths', task ':app:compileReleaseNavigationResources', task ':app:mergeReleaseResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':device_info_plus:extractDeepLinksRelease', task ':device_info_plus:processReleaseManifest', task ':geolocator_android:extractDeepLinksRelease', task ':geolocator_android:processReleaseManifest', task ':package_info_plus:extractDeepLinksRelease', task ':package_info_plus:processReleaseManifest', task ':path_provider_android:extractDeepLinksRelease', task ':path_provider_android:processReleaseManifest', task ':shared_preferences_android:extractDeepLinksRelease', task ':shared_preferences_android:processReleaseManifest', task ':url_launcher_android:extractDeepLinksRelease', task ':url_launcher_android:processReleaseManifest', task ':vibration:extractDeepLinksRelease', task ':vibration:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:outputReleaseAppLinkSettings', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':device_info_plus:mapReleaseSourceSetPaths', task ':device_info_plus:compileReleaseLibraryResources', task ':geolocator_android:mapReleaseSourceSetPaths', task ':geolocator_android:compileReleaseLibraryResources', task ':package_info_plus:mapReleaseSourceSetPaths', task ':package_info_plus:compileReleaseLibraryResources', task ':path_provider_android:mapReleaseSourceSetPaths', task ':path_provider_android:compileReleaseLibraryResources', task ':shared_preferences_android:mapReleaseSourceSetPaths', task ':shared_preferences_android:compileReleaseLibraryResources', task ':url_launcher_android:mapReleaseSourceSetPaths', task ':url_launcher_android:compileReleaseLibraryResources', task ':vibration:mapReleaseSourceSetPaths', task ':vibration:compileReleaseLibraryResources', task ':app:processReleaseResources', task ':device_info_plus:bundleLibRuntimeToJarRelease', task ':geolocator_android:bundleLibRuntimeToJarRelease', task ':package_info_plus:bundleLibRuntimeToJarRelease', task ':path_provider_android:bundleLibRuntimeToJarRelease', task ':shared_preferences_android:bundleLibRuntimeToJarRelease', task ':url_launcher_android:bundleLibRuntimeToJarRelease', task ':vibration:bundleLibRuntimeToJarRelease', task ':app:expandReleaseArtProfileWildcards', task ':app:extractProguardFiles', task ':app:mergeReleaseGeneratedProguardFiles', task ':app:processReleaseJavaRes', task ':device_info_plus:processReleaseJavaRes', task ':geolocator_android:processReleaseJavaRes', task ':package_info_plus:processReleaseJavaRes', task ':path_provider_android:processReleaseJavaRes', task ':shared_preferences_android:processReleaseJavaRes', task ':url_launcher_android:processReleaseJavaRes', task ':vibration:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseStartupProfile', task ':app:minifyReleaseWithR8', task ':app:compileReleaseArtProfile', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':device_info_plus:createFullJarRelease', task ':device_info_plus:extractProguardFiles', task ':device_info_plus:generateReleaseLintModel', task ':device_info_plus:prepareLintJarForPublish', task ':geolocator_android:createFullJarRelease', task ':geolocator_android:extractProguardFiles', task ':geolocator_android:generateReleaseLintModel', task ':geolocator_android:prepareLintJarForPublish', task ':package_info_plus:createFullJarRelease', task ':package_info_plus:extractProguardFiles', task ':package_info_plus:generateReleaseLintModel', task ':package_info_plus:prepareLintJarForPublish', task ':path_provider_android:createFullJarRelease', task ':path_provider_android:extractProguardFiles', task ':path_provider_android:generateReleaseLintModel', task ':path_provider_android:prepareLintJarForPublish', task ':shared_preferences_android:createFullJarRelease', task ':shared_preferences_android:extractProguardFiles', task ':shared_preferences_android:generateReleaseLintModel', task ':shared_preferences_android:prepareLintJarForPublish', task ':url_launcher_android:createFullJarRelease', task ':url_launcher_android:extractProguardFiles', task ':url_launcher_android:generateReleaseLintModel', task ':url_launcher_android:prepareLintJarForPublish', task ':vibration:createFullJarRelease', task ':vibration:extractProguardFiles', task ':vibration:generateReleaseLintModel', task ':vibration:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':device_info_plus:checkReleaseAarMetadata', task ':device_info_plus:stripReleaseDebugSymbols', task ':device_info_plus:copyReleaseJniLibsProjectAndLocalJars', task ':device_info_plus:extractDeepLinksForAarRelease', task ':device_info_plus:extractReleaseAnnotations', task ':device_info_plus:mergeReleaseConsumerProguardFiles', task ':device_info_plus:mergeReleaseJavaResource', task ':device_info_plus:syncReleaseLibJars', task ':device_info_plus:bundleReleaseLocalLintAar', task ':geolocator_android:checkReleaseAarMetadata', task ':geolocator_android:stripReleaseDebugSymbols', task ':geolocator_android:copyReleaseJniLibsProjectAndLocalJars', task ':geolocator_android:extractDeepLinksForAarRelease', task ':geolocator_android:extractReleaseAnnotations', task ':geolocator_android:mergeReleaseConsumerProguardFiles', task ':geolocator_android:mergeReleaseJavaResource', task ':geolocator_android:syncReleaseLibJars', task ':geolocator_android:bundleReleaseLocalLintAar', task ':package_info_plus:checkReleaseAarMetadata', task ':package_info_plus:stripReleaseDebugSymbols', task ':package_info_plus:copyReleaseJniLibsProjectAndLocalJars', task ':package_info_plus:extractDeepLinksForAarRelease', task ':package_info_plus:extractReleaseAnnotations', task ':package_info_plus:mergeReleaseConsumerProguardFiles', task ':package_info_plus:mergeReleaseJavaResource', task ':package_info_plus:syncReleaseLibJars', task ':package_info_plus:bundleReleaseLocalLintAar', task ':path_provider_android:checkReleaseAarMetadata', task ':path_provider_android:stripReleaseDebugSymbols', task ':path_provider_android:copyReleaseJniLibsProjectAndLocalJars', task ':path_provider_android:extractDeepLinksForAarRelease', task ':path_provider_android:extractReleaseAnnotations', task ':path_provider_android:mergeReleaseConsumerProguardFiles', task ':path_provider_android:mergeReleaseJavaResource', task ':path_provider_android:syncReleaseLibJars', task ':path_provider_android:bundleReleaseLocalLintAar', task ':shared_preferences_android:checkReleaseAarMetadata', task ':shared_preferences_android:stripReleaseDebugSymbols', task ':shared_preferences_android:copyReleaseJniLibsProjectAndLocalJars', task ':shared_preferences_android:extractDeepLinksForAarRelease', task ':shared_preferences_android:extractReleaseAnnotations', task ':shared_preferences_android:mergeReleaseConsumerProguardFiles', task ':shared_preferences_android:mergeReleaseJavaResource', task ':shared_preferences_android:syncReleaseLibJars', task ':shared_preferences_android:bundleReleaseLocalLintAar', task ':url_launcher_android:checkReleaseAarMetadata', task ':url_launcher_android:stripReleaseDebugSymbols', task ':url_launcher_android:copyReleaseJniLibsProjectAndLocalJars', task ':url_launcher_android:extractDeepLinksForAarRelease', task ':url_launcher_android:extractReleaseAnnotations', task ':url_launcher_android:mergeReleaseConsumerProguardFiles', task ':url_launcher_android:mergeReleaseJavaResource', task ':url_launcher_android:syncReleaseLibJars', task ':url_launcher_android:bundleReleaseLocalLintAar', task ':vibration:checkReleaseAarMetadata', task ':vibration:stripReleaseDebugSymbols', task ':vibration:copyReleaseJniLibsProjectAndLocalJars', task ':vibration:extractDeepLinksForAarRelease', task ':vibration:extractReleaseAnnotations', task ':vibration:mergeReleaseConsumerProguardFiles', task ':vibration:mergeReleaseJavaResource', task ':vibration:syncReleaseLibJars', task ':vibration:bundleReleaseLocalLintAar', task ':device_info_plus:lintVitalAnalyzeRelease', task ':device_info_plus:writeReleaseLintModelMetadata', task ':geolocator_android:lintVitalAnalyzeRelease', task ':geolocator_android:writeReleaseLintModelMetadata', task ':package_info_plus:lintVitalAnalyzeRelease', task ':package_info_plus:writeReleaseLintModelMetadata', task ':path_provider_android:lintVitalAnalyzeRelease', task ':path_provider_android:writeReleaseLintModelMetadata', task ':shared_preferences_android:lintVitalAnalyzeRelease', task ':shared_preferences_android:writeReleaseLintModelMetadata', task ':url_launcher_android:lintVitalAnalyzeRelease', task ':url_launcher_android:writeReleaseLintModelMetadata', task ':vibration:lintVitalAnalyzeRelease', task ':vibration:writeReleaseLintModelMetadata', task ':app:lintVitalAnalyzeRelease', task ':device_info_plus:generateReleaseLintVitalModel', task ':geolocator_android:generateReleaseLintVitalModel', task ':package_info_plus:generateReleaseLintVitalModel', task ':path_provider_android:generateReleaseLintVitalModel', task ':shared_preferences_android:generateReleaseLintVitalModel', task ':url_launcher_android:generateReleaseLintVitalModel', task ':vibration:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:convertShrunkResourcesToBinaryRelease', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':device_info_plus:bundleReleaseAar', task ':device_info_plus:mergeReleaseResources', task ':device_info_plus:verifyReleaseResources', task ':device_info_plus:assembleRelease', task ':geolocator_android:bundleReleaseAar', task ':geolocator_android:mergeReleaseResources', task ':geolocator_android:verifyReleaseResources', task ':geolocator_android:assembleRelease', task ':package_info_plus:bundleReleaseAar', task ':package_info_plus:mergeReleaseResources', task ':package_info_plus:verifyReleaseResources', task ':package_info_plus:assembleRelease', task ':path_provider_android:bundleReleaseAar', task ':path_provider_android:mergeReleaseResources', task ':path_provider_android:verifyReleaseResources', task ':path_provider_android:assembleRelease', task ':shared_preferences_android:bundleReleaseAar', task ':shared_preferences_android:mergeReleaseResources', task ':shared_preferences_android:verifyReleaseResources', task ':shared_preferences_android:assembleRelease', task ':url_launcher_android:bundleReleaseAar', task ':url_launcher_android:mergeReleaseResources', task ':url_launcher_android:verifyReleaseResources', task ':url_launcher_android:assembleRelease', task ':vibration:bundleReleaseAar', task ':vibration:mergeReleaseResources', task ':vibration:verifyReleaseResources', task ':vibration:assembleRelease']
+[        ] Tasks that were excluded: []
+[        ] work action Parameters of FilterShrinkerRulesTransform (Thread[#1523,Execution worker,5,main]) started.
+[        ] work action Parameters of ExtractAarTransform (Thread[#1523,Execution worker,5,main]) started.
+[        ] Resolve mutations for :app:ReleaseMinSdkCheck (Thread[#1523,Execution worker,5,main]) started.
+[        ] :app:ReleaseMinSdkCheck (Thread[#1526,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:ReleaseMinSdkCheck
+[        ] Caching disabled for task ':app:ReleaseMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:ReleaseMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:compileFlutterBuildRelease (Thread[#1526,Execution worker Thread 4,5,main]) started.
+[        ] :app:compileFlutterBuildRelease (Thread[#1526,Execution worker Thread 4,5,main]) started.
+[+1993 ms] > Task :app:compileFlutterBuildRelease
+[        ] Caching disabled for task ':app:compileFlutterBuildRelease' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildRelease' is not up-to-date because:
+[        ]   Task has failed previously.
+[        ] Starting process 'command 'C:\flutter\bin\flutter.bat''. Working directory: C:\The Project\driver_app Command: C:\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile C:\The Project\driver_app\build\app\intermediates\flutter\release/flutter_build.d --output C:\The Project\driver_app\build\app\intermediates\flutter\release -dTargetFile=lib\main.dart -dTargetPlatform=android -dBuildMode=release -dTrackWidgetCreation=true -dTreeShakeIcons=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZmYzN2JlZjYwMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZTRiOGRjYTNmMQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4x -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 android_aot_bundle_release_android-arm android_aot_bundle_release_android-arm64 android_aot_bundle_release_android-x64
+[        ] Successfully started process 'command 'C:\flutter\bin\flutter.bat''
+[        ] [ +179 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [   +6 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +32 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +16 ms] Initializing file store
+[        ] [  +14 ms] Done initializing file store
+[        ] [  +84 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [   +1 ms] Skipping target: dart_build
+[        ] [        ] Skipping target: gen_localizations
+[        ] [        ] Skipping target: install_code_assets
+[        ] [ +379 ms] kernel_snapshot_program: Starting due to {InvalidatedReasonKind.outputSetAddition: The following outputs were added to the output set: C:\The Project\driver_app\.dart_tool\flutter_build\43715e757f063ac1d80c4a29462cd5be\app.dill}
+[        ] [   +8 ms] C:\flutter\bin\cache\dart-sdk\bin\dartaotruntime.exe C:\flutter\bin\cache\dart-sdk\bin\snapshots\frontend_server_aot.dart.snapshot --sdk-root C:\flutter\bin\cache\artifacts\engine\common\flutter_patched_sdk_product/ --target=flutter --no-print-incremental-dependencies -DFLUTTER_VERSION=3.41.4 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=ff37bef603 -DFLUTTER_ENGINE_REVISION=e4b8dca3f1 -DFLUTTER_DART_VERSION=3.11.1 -DFLUTTER_APP_FLAVOR= -Ddart.vm.profile=false -Ddart.vm.product=true --delete-tostring-package-uri=dart:ui --delete-tostring-package-uri=package:flutter --aot --tfa --target-os android --packages C:\The Project\driver_app\.dart_tool\package_config.json --output-dill C:\The Project\driver_app\.dart_tool\flutter_build\43715e757f063ac1d80c4a29462cd5be\app.dill --depfile C:\The Project\driver_app\.dart_tool\flutter_build\43715e757f063ac1d80c4a29462cd5be\kernel_snapshot_program.d --source file:///C:/The%20Project/driver_app/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///C:/The%20Project/driver_app/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error package:driver_app/main.dart
+[+4407 ms] [+4443 ms] Persisting file store
+[        ] [  +10 ms] Done persisting file store
+[        ] [        ] "flutter assemble" took 7,750ms.
+[        ] [        ] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[ +293 ms] [ +266 ms] exiting with code 1
+[        ] > Task :app:compileFlutterBuildRelease FAILED
+[        ] Build 260917dc-5a9c-4cd3-80ed-fa1c06ecac83 is closed
+[        ] Build e2ca9eb8-b163-49ba-b003-169b1f672283 is closed
+[        ] [Incubating] Problems report is available at: file:///C:/The%20Project/driver_app/build/reports/problems/problems-report.html
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 6 actionable tasks: 2 executed, 4 up-to-date
+[        ] Watched directory hierarchies: [C:\flutter\packages\flutter_tools\gradle]
+[  +59 ms] Running Gradle task 'assembleRelease'... (completed in 11.3s)
+[  +33 ms] "flutter apk" took 12,110ms.
+[        ] Running 1 shutdown hook
+[   +1 ms] Shutdown hooks complete
+[ +147 ms] exiting with code 1

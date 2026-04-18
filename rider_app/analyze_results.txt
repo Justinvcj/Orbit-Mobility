@@ -1,0 +1,25 @@
+﻿Analyzing rider_app...                                          
+
+   info - The prefix 'IO' isn't a lower_case_with_underscores identifier - lib\main.dart:5:60 - library_prefixes
+warning - The value of the field '_rideId' isn't used - lib\main.dart:147:8 - unused_field
+   info - Unnecessary braces in a string interpolation - lib\main.dart:444:21 - unnecessary_brace_in_string_interps
+
+flutter : 3 issues 
+found. (ran in 11.5s)
+At line:1 char:1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+"analyze_results.txt" 
+-Enco ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (3 issues f   
+ ound. (ran in 11.    
+5s):String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
