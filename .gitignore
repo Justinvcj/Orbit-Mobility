@@ -6,3 +6,21 @@ build/
 android/key.properties
 .DS_Store
 Thumbs.db
+
+# Gradle & build caches
+*.zip
+gradle-*/
+*.gradle
+.gradle/
+
+# Flutter build outputs
+**/build/
+**/*.apk
+**/*.aab
+**/*.ipa
+
+# Flutter analyze artifacts
+*.txt
+
+# Embedded sub-repos (should be separate)
+get-shit-done-for-antigravity/
